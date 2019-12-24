@@ -10,7 +10,7 @@ matrix:
     python: 3.5
     env:
     - TOXENV=py35
-    - arch: amd64 
+  - arch: amd64 
     python: 3.5
     env:
     - TOXENV=py35
@@ -18,7 +18,7 @@ matrix:
     python: 3.6
     env:
     - TOXENV=py36
-   - arch: amd64 
+  - arch: amd64 
     python: 3.6
     env:
     - TOXENV=py36
@@ -26,7 +26,7 @@ matrix:
     python: 3.7
     env:
     - TOXENV=py37
-   - arch: amd64 
+  - arch: amd64 
     python: 3.7
     env:
     - TOXENV=py37
@@ -34,20 +34,20 @@ matrix:
     python: 3.8-dev
     env:
     - TOXENV=py38
-   - arch: amd64  
+  - arch: amd64  
     python: 3.8-dev
     env:
     - TOXENV=py38
   - arch: arm64 
     python: 3.7
     env: TOXENV=nolxml
-   - arch: amd64 
+  - arch: amd64 
     python: 3.7
     env: TOXENV=nolxml
   - arch: arm64 
     python: 3.7
     env: TOXENV=nohtml5lib
-   - arch: amd64 
+  - arch: amd64 
     python: 3.7
     env: TOXENV=nohtml5lib
 

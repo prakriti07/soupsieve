@@ -4,7 +4,6 @@ sudo: true
 # Limit git depth to speed up build
 git:
   depth: 5
-
 matrix:
   include:
   - arch: arm64 
